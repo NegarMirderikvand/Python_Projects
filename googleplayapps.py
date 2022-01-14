@@ -2,7 +2,7 @@ import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 import matplotlib.pyplot as plt
 
-df=pd.read_csv('D:/Laptop backup 2/course work2/course works2/Data Science program/files/googleplaystore3.csv',na_values='#')
+df=pd.read_csv('D:/files/googleplaystore3.csv',na_values='#')
 #'''
 df.describe(include="all")#Similar to summary in R
 df.dtypes#similar to str function in R
